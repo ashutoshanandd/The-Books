@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #859999;
+  border-radius: 7px;
+  min-height: 130px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container {
+  width: 90%;
+}
+
+.navbar-title {
+  color: white;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-buttons button,
+.right-buttons button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.left-buttons button:hover,
+.right-buttons button:hover {
+  background-color: #777;
+  transform: scale(1.05);
+}
+
+.left-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+
+
+
+
+
+.footer{
+  background-color: #818D92;
+  border-radius: 5px;
+}
+
+.footer h1{
+  color: white;
+}
+
+.login{
+  margin-right: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.welcome-section {
+  max-width: 700px;
+}
+
+.highlight {
+  color: #009999;
+  font-weight: 700;
+}
+
+.quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.author {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: auto;
+}
+
+label, input, button, p {
+  margin-bottom: 10px;
+}
