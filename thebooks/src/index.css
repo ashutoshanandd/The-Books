@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ body {
 nav {
   background-color: #859999;
   border-radius: 7px;
-  min-height: 130px; 
+  min-height: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,16 +61,16 @@ nav {
 
 
 
-.footer{
+.footer {
   background-color: #818D92;
   border-radius: 5px;
 }
 
-.footer h1{
+.footer h1 {
   color: white;
 }
 
-.login{
+.login {
   margin-right: 20px;
 }
 
@@ -117,6 +118,9 @@ form {
   margin: auto;
 }
 
-label, input, button, p {
+label,
+input,
+button,
+p {
   margin-bottom: 10px;
 }
